@@ -1,0 +1,28 @@
+﻿l_english:
+ foreign_nobles: "Foreign Nobles"
+ foreign_clergy: "Foreign Clerics"
+ foreign_burghers: "Foreign Burghers"
+ foreign_laborers: "Foreign Laborers"
+ foreign_soldiers: "Foreign Soldiers" 
+ foreign_peasants: "Foreign Peasants"
+ #
+ foreign_nobles_desc: "These represent the rich and powerful, with a lineage that can not be doubted. This is the [pops|e] that provide the main [characters|e] to lead the [country|e]."
+ foreign_clergy_desc: "The spiritual leaders of our [country|e], the clergy [pops|e] constitute the group that keeps our religious traditions in check and educates our people in the mysteries of our faith."
+ foreign_burghers_desc: "These represent the mercantile strata of the [country|e], economics and finances being their reign. They are based mostly in [towns_and_cities|e], where they promote wealth with productive [buildings|e]."
+ foreign_laborers_desc: "These represent the people who work manual labour in our [towns_and_cities|e] and [rural_locations|e]. They work the land to create, harvest and gather the [raw_materials|e] that are the backbone of the country, or work as unskilled labour in mills."
+ foreign_soldiers_desc: "These represent the common people that provide the [manpower|e] for our [armies|e] and [garrisons|e] as well as [sailors|e] for our [navies|e]."
+ foreign_peasants_desc: "These represent the common people over whom we rule. Most of them live on subsistence farming, or in our villages."
+ #
+ foreign_nobles_literacy_impact: "Average [literacy|e] of [ShowPopTypeName('foreign_nobles')]"
+ foreign_clergy_literacy_impact: "Average [literacy|e] of [ShowPopTypeName('foreign_clergy')]"
+ foreign_burghers_literacy_impact: "Average [literacy|e] of [ShowPopTypeName('foreign_burghers')]"
+ foreign_laborers_literacy_impact: "Average [literacy|e] of [ShowPopTypeName('foreign_laborers')]"
+ foreign_soldiers_literacy_impact: "Average [literacy|e] of [ShowPopTypeName('foreign_soldiers')]" 
+ foreign_peasants_literacy_impact: "Average [literacy|e] of [ShowPopTypeName('foreign_peasants')]"
+ #
+ foreign_nobles_pop_percentage_impact: "Relative Amount of [ShowPopTypeName('foreign_nobles')]"
+ foreign_clergy_pop_percentage_impact: "Relative Amount of [ShowPopTypeName('foreign_clergy')]"
+ foreign_burghers_pop_percentage_impact: "Relative Amount of [ShowPopTypeName('foreign_burghers')]"
+ foreign_laborers_pop_percentage_impact: "Relative Amount of [ShowPopTypeName('foreign_laborers')]"
+ foreign_soldiers_pop_percentage_impact: "Relative Amount of [ShowPopTypeName('foreign_soldiers')]" 
+ foreign_peasants_pop_percentage_impact: "Relative Amount of [ShowPopTypeName('foreign_peasants')]"
