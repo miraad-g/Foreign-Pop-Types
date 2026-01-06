@@ -1,0 +1,844 @@
+﻿# This is a copy of the vanilla definitions, changed to a foreign type.
+# Without this, the log generates a lot of errors.
+
+local_foreign_nobles_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=location
+        scale_with_pop=yes
+    }
+}
+
+local_foreign_nobles_desired_pop={
+    decimals=0
+    game_data={
+        category=location
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_nobles_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_nobles_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_nobles_city_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_nobles_city_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_nobles_rural_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_nobles_rural_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_nobles_migration_allowed={
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_nobles_migration_allowed={
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+local_foreign_nobles_max_literacy={
+    already_percent=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_nobles_max_literacy={
+    already_percent=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_clergy_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=location
+        scale_with_pop=yes
+    }
+}
+
+local_foreign_clergy_desired_pop={
+    decimals=0
+    game_data={
+        category=location
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_clergy_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_clergy_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_clergy_city_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_clergy_city_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_clergy_rural_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_clergy_rural_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_clergy_migration_allowed={
+    decimals=0
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_clergy_migration_allowed={
+    decimals=0
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+local_foreign_clergy_max_literacy={
+    already_percent=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_clergy_max_literacy={
+    already_percent=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_burghers_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=location
+        scale_with_pop=yes
+    }
+}
+
+local_foreign_burghers_desired_pop={
+    decimals=0
+    game_data={
+        category=location
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_burghers_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_burghers_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_burghers_city_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_burghers_city_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_burghers_rural_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_burghers_rural_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_burghers_migration_allowed={
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_burghers_migration_allowed={
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+local_foreign_burghers_max_literacy={
+    already_percent=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_burghers_max_literacy={
+    already_percent=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_peasants_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=location
+        scale_with_pop=yes
+    }
+}
+
+local_foreign_peasants_desired_pop={
+    decimals=0
+    game_data={
+        category=location
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_peasants_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_peasants_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_peasants_city_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_peasants_city_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_peasants_rural_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_peasants_rural_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_peasants_migration_allowed={
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_peasants_migration_allowed={
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+local_foreign_peasants_max_literacy={
+    already_percent=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_peasants_max_literacy={
+    already_percent=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_laborers_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=location
+        scale_with_pop=yes
+    }
+}
+
+local_foreign_laborers_desired_pop={
+    decimals=0
+    game_data={
+        category=location
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_laborers_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_laborers_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_laborers_rural_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_laborers_rural_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_laborers_city_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_laborers_city_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_laborers_migration_allowed={
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_laborers_migration_allowed={
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+local_foreign_laborers_max_literacy={
+    already_percent=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_laborers_max_literacy={
+    already_percent=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_soldiers_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=location
+        scale_with_pop=yes
+    }
+}
+
+local_foreign_soldiers_desired_pop={
+    decimals=0
+    game_data={
+        category=location
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_soldiers_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_soldiers_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_soldiers_rural_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_soldiers_rural_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_soldiers_city_desired_pop_scaled={
+    percent=yes
+    game_data={
+        category=country
+        scale_with_pop=yes
+    }
+}
+
+global_foreign_soldiers_city_desired_pop={
+    decimals=0
+    game_data={
+        category=country
+        format="FormatPopCaps"
+    }
+}
+
+global_foreign_soldiers_migration_allowed={
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_soldiers_migration_allowed={
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+local_foreign_soldiers_max_literacy={
+    already_percent=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_soldiers_max_literacy={
+    already_percent=yes
+    game_data={
+        category=country
+    }
+}
+
+global_foreign_nobles_conversion_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_nobles_conversion_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_clergy_conversion_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_clergy_conversion_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_burghers_conversion_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_burghers_conversion_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_peasants_conversion_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_peasants_conversion_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_laborers_conversion_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_laborers_conversion_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_soldiers_conversion_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_soldiers_conversion_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_nobles_assimilation_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_nobles_assimilation_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_clergy_assimilation_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_clergy_assimilation_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_burghers_assimilation_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_burghers_assimilation_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_peasants_assimilation_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_peasants_assimilation_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_laborers_assimilation_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_laborers_assimilation_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_soldiers_assimilation_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_soldiers_assimilation_blocked={
+    color=bad
+    boolean=yes
+    game_data={
+        category=location
+    }
+}
+
+local_foreign_nobles_food_consumption={
+    color=bad
+    percent=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_nobles_food_consumption={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_clergy_food_consumption={
+    color=bad
+    percent=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_clergy_food_consumption={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_burghers_food_consumption={
+    color=bad
+    percent=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_burghers_food_consumption={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_peasants_food_consumption={
+    color=bad
+    percent=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_peasants_food_consumption={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_laborers_food_consumption={
+    color=bad
+    percent=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_laborers_food_consumption={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
+local_foreign_soldiers_food_consumption={
+    color=bad
+    percent=yes
+    game_data={
+        category=location
+    }
+}
+
+global_foreign_soldiers_food_consumption={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
