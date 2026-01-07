@@ -1,4 +1,7 @@
 ﻿l_braz_por:
+ TOGGLE_FOREIGN_ESTATE_CARDS_VISIBLE: "Exibir cartas estrangeiras"
+
+
  foreign_nobles: "Nobres Estrangeiros"
  foreign_clergy: "Clérigos Estrangeiros"
  foreign_burghers: "Burgueses Estrangeiros"

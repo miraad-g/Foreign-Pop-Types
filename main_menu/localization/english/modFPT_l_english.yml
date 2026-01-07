@@ -1,4 +1,7 @@
 ﻿l_english:
+ TOGGLE_FOREIGN_ESTATE_CARDS_VISIBLE: "Switch the display of foreign cards"
+
+
  foreign_nobles: "Foreign Nobles"
  foreign_clergy: "Foreign Clerics"
  foreign_burghers: "Foreign Burghers"

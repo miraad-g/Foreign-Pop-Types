@@ -1,0 +1,29 @@
+﻿# This is required for the estate filter panel in the GUI.
+IsVanilaPopType = {
+    is_shown = {
+        OR = {
+            root = pop_type:nobles
+            root = pop_type:clergy
+            root = pop_type:burghers
+            root = pop_type:laborers
+            root = pop_type:soldiers
+            root = pop_type:peasants
+            root = pop_type:tribesmen
+            root = pop_type:slaves
+        }
+    }
+}
+
+ToggleForeignEstateCardsVisible = {
+    effect = {
+        if = {
+            limit = {
+                NOT = { has_variable = foreignEstateCardsVisible }
+            }
+            set_variable = foreignEstateCardsVisible
+        }
+        else = {
+            remove_variable = foreignEstateCardsVisible
+        }
+    }
+}
