@@ -1,5 +1,4 @@
 ﻿l_english:
- # \main_menu\localization\english\pops_l_english.yml
  foreign_nobles: "Foreign Nobles"
  foreign_clergy: "Foreign Clerics"
  foreign_burghers: "Foreign Burghers"
@@ -29,7 +28,6 @@
  foreign_peasants_pop_percentage_impact: "Relative Amount of [ShowPopTypeName('foreign_peasants')]"
  
 
- # \main_menu\localization\english\modifier_types_l_english.yml
  MODIFIER_TYPE_NAME_local_foreign_nobles_desired_pop_scaled: "Possible $foreign_nobles$ $per_1000_pops$"
  MODIFIER_TYPE_DESC_local_foreign_nobles_desired_pop_scaled: "Impacts how many [ShowPopTypeName('foreign_nobles')] can live in this [location|e]."
  MODIFIER_TYPE_NAME_global_foreign_nobles_desired_pop_scaled: "Possible $foreign_nobles$ $per_1000_pops$"
