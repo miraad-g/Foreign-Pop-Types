@@ -23,4 +23,22 @@ TRY_INJECT:appoint_ecclesiastical_offices = {
         global_foreign_nobles_max_literacy = 5
     }
 }
+TRY_INJECT:noble_serfdom_rights = {
+    country_modifier = {
+        global_foreign_peasants_food_consumption = -0.1
+        global_foreign_laborers_food_consumption = -0.1
+    }
+}
+TRY_INJECT:reduced_responsibilities_for_the_nobles = {
+    country_modifier = {
+        global_foreign_nobles_food_consumption = 0.1
+    }
+}
 
+# \in_game\common\estate_privileges\peasants_estate.txt
+TRY_INJECT:partial_yield = {
+    country_modifier = {
+        global_foreign_peasants_food_consumption = -0.1
+        global_foreign_laborers_food_consumption = -0.1
+    }
+}

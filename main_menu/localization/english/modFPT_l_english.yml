@@ -18,6 +18,11 @@
  AUTO_MODIFIER_NAME_modFTP_has_nueva_recopilacion_policy: "@policy! $nueva_recopilacion_policy$"
  AUTO_MODIFIER_NAME_modFTP_has_fair_conditions_policy: "@policy! $fair_conditions$"
  AUTO_MODIFIER_NAME_modFTP_has_possessors_policy: "@policy! $possessors$"
+ AUTO_MODIFIER_NAME_modFTP_has_dop_favor_the_nobles_policy: "@policy! $dop_favor_the_nobles$"
+ AUTO_MODIFIER_NAME_modFTP_has_dop_favor_the_burghers_policy: "@policy! $dop_favor_the_burghers$"
+ AUTO_MODIFIER_NAME_modFTP_has_dop_favor_the_clergy_policy: "@policy! $dop_favor_the_clergy$"
+ AUTO_MODIFIER_NAME_modFTP_has_dop_favor_the_commoners_policy: "@policy! $dop_favor_the_commoners$"
+ AUTO_MODIFIER_NAME_modFTP_has_zabiti_policy: "@policy! $zabiti$"
 
 
  foreign_nobles: "Foreign Nobles"
@@ -294,7 +299,7 @@
  MODIFIER_TYPE_NAME_local_foreign_soldiers_conversion_blocked: "Conversion of $foreign_soldiers$ Blocked"
  MODIFIER_TYPE_DESC_local_foreign_soldiers_conversion_blocked: "This stops all [ShowPopTypeName('foreign_soldiers')] from [converting|e] to the [state_religion|e] in this [location|e]."
  
- 
+
  # assimilation_blocked
  MODIFIER_TYPE_NAME_global_foreign_nobles_assimilation_blocked: "Assimilation of $foreign_nobles$ Blocked"
  MODIFIER_TYPE_DESC_global_foreign_nobles_assimilation_blocked: "This stops all [ShowPopTypeName('foreign_nobles')] from [assimilating|e] to the [primary_culture|e] in this [country|e]."

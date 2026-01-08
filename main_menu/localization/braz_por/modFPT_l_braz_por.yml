@@ -18,6 +18,11 @@
  AUTO_MODIFIER_NAME_modFTP_has_nueva_recopilacion_policy: "@policy! $nueva_recopilacion_policy$"
  AUTO_MODIFIER_NAME_modFTP_has_fair_conditions_policy: "@policy! $fair_conditions$"
  AUTO_MODIFIER_NAME_modFTP_has_possessors_policy: "@policy! $possessors$"
+ AUTO_MODIFIER_NAME_modFTP_has_dop_favor_the_nobles_policy: "@policy! $dop_favor_the_nobles$"
+ AUTO_MODIFIER_NAME_modFTP_has_dop_favor_the_burghers_policy: "@policy! $dop_favor_the_burghers$"
+ AUTO_MODIFIER_NAME_modFTP_has_dop_favor_the_clergy_policy: "@policy! $dop_favor_the_clergy$"
+ AUTO_MODIFIER_NAME_modFTP_has_dop_favor_the_commoners_policy: "@policy! $dop_favor_the_commoners$"
+ AUTO_MODIFIER_NAME_modFTP_has_zabiti_policy: "@policy! $zabiti$"
 
 
  foreign_nobles: "Nobres Estrangeiros"

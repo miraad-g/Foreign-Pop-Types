@@ -1,4 +1,6 @@
-﻿# \in_game\common\building_types\capital_buildings.txt
+﻿########################################################
+# \in_game\common\building_types\capital_buildings.txt #
+########################################################
 TRY_INJECT:chancery = {
     capital_modifier = {
         local_foreign_burghers_max_literacy = 2.5
@@ -7,7 +9,9 @@ TRY_INJECT:chancery = {
 }
 
 
-# \in_game\common\building_types\culture_buildings.txt
+########################################################
+# \in_game\common\building_types\culture_buildings.txt #
+########################################################
 TRY_INJECT:university = {
     modifier = {
         local_foreign_burghers_max_literacy = 10
@@ -26,7 +30,9 @@ TRY_INJECT:jesuit_college = {
 }
 
 
-# \in_game\common\building_types\estate_buildings.txt
+#######################################################
+# \in_game\common\building_types\estate_buildings.txt #
+#######################################################
 TRY_INJECT:clerical_archives = {
     modifier = {
         local_foreign_clergy_max_literacy = 1
@@ -37,9 +43,41 @@ TRY_INJECT:local_foreign_schools = {
         local_foreign_peasants_max_literacy = 1
     }
 }
+TRY_INJECT:toll_castle = {
+    modifier = {
+        local_foreign_nobles_food_consumption = 1.0
+    }
+}
+TRY_INJECT:noble_villa = {
+    modifier = {
+        local_foreign_nobles_food_consumption = 0.2
+    }
+}
+TRY_INJECT:spiritual_retreat = {
+    modifier = {
+        local_foreign_clergy_food_consumption = 0.1
+    }
+}
+TRY_INJECT:burgher_mansion = {
+    modifier = {
+        local_foreign_burghers_food_consumption = 0.25
+    }
+}
+TRY_INJECT:festival_grounds = {
+    modifier = {
+        local_foreign_peasants_food_consumption = 0.05
+    }
+}
+TRY_INJECT:peasants_hunting_grounds = {
+    modifier = {
+        local_peasants_food_consumption = -0.2
+    }
+}
 
 
-# \in_game\common\building_types\event_only_buildings.txt
+###########################################################
+# \in_game\common\building_types\event_only_buildings.txt #
+###########################################################
 TRY_INJECT:great_madrasa = {
     modifier = {
         local_foreign_clergy_max_literacy = 10
@@ -80,8 +118,9 @@ TRY_INJECT:segovia_artillery_academy = {
     }
 }
 
-
-# \in_game\common\building_types\religion_buildings.txt
+#########################################################
+# \in_game\common\building_types\religion_buildings.txt #
+#########################################################
 TRY_INJECT:monastery = {
     modifier = {
         local_foreign_clergy_food_consumption = 0.1
@@ -119,13 +158,12 @@ TRY_INJECT:miaphysite_monastery = {
     }
 }
 
-
-# \in_game\common\building_types\town_buildings.txt
+#####################################################
+# \in_game\common\building_types\town_buildings.txt #
+#####################################################
 TRY_INJECT:temple = {
     modifier = {
         local_foreign_clergy_max_literacy = 5
-        local_foreign_unrest = -0.025
-        local_foreign_max_control = 0.05
     }
 }
 TRY_INJECT:cathedral = {
@@ -134,8 +172,9 @@ TRY_INJECT:cathedral = {
     }
 }
 
-
-# \in_game\common\building_types\unique_buildings.txt
+#######################################################
+# \in_game\common\building_types\unique_buildings.txt #
+#######################################################
 TRY_INJECT:calmecac = {
     modifier = {
         local_foreign_nobles_max_literacy = 20
@@ -147,8 +186,6 @@ TRY_INJECT:calmecac = {
 TRY_INJECT:ibadat_khana = {
     modifier = {
         local_foreign_clergy_max_literacy = 10
-        local_foreign_monthly_literacy = 0.05
-        local_foreign_institution_growth_modifier = 0.33
     }
 }
 TRY_INJECT:greek_latin_academy = {
@@ -162,7 +199,6 @@ TRY_INJECT:greek_latin_academy = {
 }
 TRY_INJECT:free_economic_society = {
     modifier = {
-        local_foreign_monthly_literacy = 0.1
         local_foreign_peasants_max_literacy = 3
     }
 }
@@ -180,5 +216,15 @@ TRY_INJECT:great_hill_complex = {
 TRY_INJECT:gurgaddi = {
     modifier = {
         local_foreign_clergy_max_literacy = 10
+    }
+}
+TRY_INJECT:seat_of_cardinal = {
+    modifier = {
+        local_foreign_clergy_food_consumption = 0.2
+    }
+}
+TRY_INJECT:dun_fort = {
+    modifier = {
+        local_foreign_nobles_food_consumption = -0.2
     }
 }

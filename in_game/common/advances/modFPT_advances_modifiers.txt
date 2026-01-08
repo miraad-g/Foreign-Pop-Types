@@ -48,9 +48,12 @@ TRY_INJECT:regnal_chronicles = { global_foreign_clergy_max_literacy = 10 }
 
 # \in_game\common\advances\religion_buddhist.txt
 TRY_INJECT:buddhist_canon = { global_foreign_clergy_max_literacy = 10 }
+TRY_INJECT:ascetic_practices = { global_foreign_clergy_food_consumption = -0.05 }
 
 # \in_game\common\advances\religion_catholic.txt
 TRY_INJECT:roman_catechism = { global_foreign_clergy_max_literacy = 10 }
+TRY_INJECT:monastery_productions = { global_foreign_clergy_food_consumption = -0.05 }
+
 
 # \in_game\common\advances\religion_hindu.txt
 TRY_INJECT:vedah = { global_foreign_clergy_max_literacy = 5 }
