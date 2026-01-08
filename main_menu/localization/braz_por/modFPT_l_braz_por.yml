@@ -67,6 +67,16 @@
  search_filter_pop_is_foreign_peasants_name: "Camponês Estrangeiros"
  search_filter_pop_is_foreign_peasants_desc: "Exibe grupos populacionais que são camponeses estrangeiros."
 
+
+ # demands
+ modFTP_foreign_pop_demand: "Necessidades da População"
+ foreign_nobles_demand: "Necessidades dos [ShowPopTypeName('foreign_nobles')]"
+ foreign_clergy_demand: "Necessidades dos [ShowPopTypeName('foreign_clergy')]" 
+ foreign_burghers_demand: "Necessidades dos [ShowPopTypeName('foreign_burghers')]"
+ foreign_peasants_demand: "Necessidades dos [ShowPopTypeName('foreign_peasants')]"
+ foreign_soldiers_demand: "Necessidades dos [ShowPopTypeName('foreign_soldiers')]"
+ foreign_laborers_demand: "Necessidades dos [ShowPopTypeName('foreign_laborers')]"
+
  
  # desired_pop
  MODIFIER_TYPE_NAME_local_foreign_nobles_desired_pop_scaled: "Possíveis $foreign_nobles$"

@@ -1,0 +1,163 @@
+﻿modFTP_foreign_pop_demand = {
+    wine = {
+        value = 1
+        if = {
+            limit = {
+                pop_type = pop_type:foreign_clergy
+                religion = {
+                    OR = {
+                        this = religion:shinto # rice wine
+                        group = {
+                            OR = {
+                                this = religion_group:christian
+                                this = religion_group:israelite_group
+                            }
+                        }
+                    }
+                }
+            }
+            multiply = {
+                value = 10
+                desc = "POP_DEMAND_RITUAL_WINE"
+            }
+        }
+    }
+
+    ivory = {
+        value = 1
+
+        if = {
+            limit = {
+                pop_type = pop_type:foreign_nobles
+                location.sub_continent = sub_continent:south_asia
+            }
+            multiply = {
+                value = 1.2
+                desc = "POP_DEMAND_NOBLES_INDIAN"
+            }
+        }
+        if = {
+            limit = { religion = religion:jain }
+            multiply = {
+                value = 0
+                desc = "POP_DEMAND_JAIN"
+            }
+        }
+
+    }
+
+    incense = {
+        value = 1
+
+        if = {
+            limit = {
+                pop_type = pop_type:foreign_clergy
+                OR = {
+                    religion = religion:miaphysite
+                    religion = religion:orthodox
+                    religion = religion:catholic
+                }
+            }
+            multiply = {
+                value = 2
+                desc = "POP_DEMAND_CLERGY"
+            }
+        }
+    }
+
+    medicaments = {
+        value = 1
+
+        #Some Religions have preferences
+        if = {
+            limit = {
+                #Coca leaf usage as sacrifice
+                religion.group = religion_group:folk_peruvian_group
+                pop_type = pop_type:foreign_clergy
+            }
+            multiply = {
+                desc = "POP_DEMAND_ANDEAN_COCA_LEAF_CLERGY"
+                value = 2.0
+            }
+        }
+    }
+
+    fine_cloth = {
+        value = 1
+
+        if = {
+            limit = {
+                pop_type = pop_type:foreign_clergy
+                religion = religion:anglican
+                location.owner ?= { has_variable = anglican_vestments }
+            }
+            multiply = {
+                value = 2
+                desc = "POP_DEMAND_CLERGY"
+            }
+        }
+    }
+
+    weaponry  = {
+        value = 1
+
+        if = {
+            limit = {
+                OR = {
+                    pop_type = pop_type:foreign_peasants
+                    pop_type = pop_type:foreign_laborers
+                }
+                and = {
+                    exists = owner
+                    owner.modifier:peasants_allowed_weapons = no
+                }
+            }
+            multiply = {
+                value = 0
+                desc = "POP_DEMAND_PEASANTSNO_WEAPONS"
+            }
+        }
+    }
+
+    livestock = {
+        value = 1
+
+        if = {
+            limit = {
+                #Andeans use the Llama as sacrifice
+                religion.group = religion_group:folk_peruvian_group
+                pop_type = pop_type:foreign_clergy
+            }
+            multiply = {
+                value = 1.5
+                desc = "POP_DEMAND_CLERGY"
+            }
+        }
+    }
+    category = pop_needs
+}
+
+foreign_nobles_demand = {
+    hidden = yes
+    category = pop_needs
+}
+foreign_clergy_demand = {
+    hidden = yes
+    category = pop_needs
+}
+foreign_burghers_demand = {
+    hidden = yes
+    category = pop_needs
+}
+foreign_soldiers_demand = {
+    hidden = yes
+    category = pop_needs
+}
+foreign_laborers_demand = {
+    hidden = yes
+    category = pop_needs
+}
+foreign_peasants_demand = {
+    hidden = yes
+    category = pop_needs
+}

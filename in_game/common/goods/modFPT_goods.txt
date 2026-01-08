@@ -1,0 +1,264 @@
+﻿##############################################
+# \in_game\common\goods\00_raw_materials.txt #
+##############################################
+TRY_INJECT:horses = {
+    demand_add = {
+        foreign_nobles =  0.25
+    }
+}
+TRY_INJECT:goods_gold = {
+    demand_add = {
+        foreign_nobles = 0.025
+    }
+}
+TRY_INJECT:silver = {
+    demand_add = {
+        foreign_nobles = 0.025
+    }
+}
+TRY_INJECT:incense = {
+    demand_add = {
+        foreign_clergy = 0.01
+    }
+}
+TRY_INJECT:tea = {
+    demand_add = {
+        foreign_nobles = 0.2
+        foreign_burghers = 0.01
+        foreign_clergy = 0.01
+    }
+}
+TRY_INJECT:cocoa = {
+    demand_add = {
+        foreign_nobles = 0.1
+        foreign_burghers = 0.01
+        foreign_clergy = 0.01
+    }
+}
+TRY_INJECT:coffee = {
+    demand_add = {
+        foreign_nobles = 0.01
+        foreign_burghers = 0.001
+        foreign_clergy = 0.0005
+        foreign_soldiers = 0.001
+    }
+}
+TRY_INJECT:ivory = {
+    demand_add = {
+        foreign_nobles = 0.05
+    }
+}
+TRY_INJECT:salt = {
+    demand_add = {
+        foreign_nobles = 0.05
+        foreign_burghers = 0.004
+    }
+}
+TRY_INJECT:medicaments = {
+    demand_multiply = {
+        foreign_nobles = 5
+        foreign_clergy = 2.5
+        foreign_burghers = 1.5
+    }
+}
+TRY_INJECT:gems = {
+    demand_add = {
+        foreign_nobles = 0.05
+    }
+}
+TRY_INJECT:pearls = {
+    demand_add = {
+        foreign_nobles = 0.05
+        foreign_burghers = 0.0025
+    }
+}
+TRY_INJECT:amber = {
+    demand_add = {
+        foreign_nobles = 0.1
+        foreign_burghers = 0.005
+    }
+}
+TRY_INJECT:wine = {
+    demand_multiply = {
+        foreign_nobles = 1.5
+    }
+}
+TRY_INJECT:elephants = {
+    demand_add = {
+        foreign_nobles =  0.1
+    }
+}
+TRY_INJECT:marble = {
+    demand_add = {
+        foreign_nobles = 0.05
+    }
+}
+TRY_INJECT:saffron = {
+    demand_add = {
+        foreign_nobles = 0.05
+        foreign_burghers = 0.002
+        foreign_clergy = 0.005
+    }
+}
+TRY_INJECT:pepper = {
+    demand_add = {
+        foreign_nobles = 0.05
+        foreign_burghers = 0.0025
+        foreign_clergy = 0.005
+    }
+}
+TRY_INJECT:cloves = {
+    demand_add = {
+        foreign_nobles = 0.05
+        foreign_burghers = 0.0025
+        foreign_clergy = 0.005
+    }
+}
+TRY_INJECT:chili = {
+    demand_add = {
+        foreign_nobles = 0.05
+        foreign_burghers = 0.0025
+        foreign_clergy = 0.005
+    }
+}
+
+
+#################################################
+# \in_game\common\goods\01_plantation_goods.txt #
+#################################################
+TRY_INJECT:sugar = {
+    demand_add = {
+        foreign_nobles = 0.05
+        foreign_burghers = 0.005
+        foreign_clergy = 0.005
+    }
+}
+TRY_INJECT:tobacco = {
+    demand_add = {
+        foreign_nobles = 0.05
+        burghers = 0.005
+        foreign_clergy = 0.005
+    }
+}
+
+##############################################
+# in_game\common\goods\02_produced_goods.txt #
+##############################################
+TRY_INJECT:porcelain = {
+    demand_multiply = {
+        foreign_nobles = 20
+    }
+}
+TRY_INJECT:firearms = {
+    demand_add = {
+        foreign_nobles = 0.2
+        foreign_soldiers = 0.001
+    }
+}
+TRY_INJECT:weaponry = {
+    demand_add = {
+        foreign_nobles = 0.1
+        foreign_soldiers = 0.0025
+        foreign_laborers = 0.0005
+        foreign_peasants = 0.0005
+    }
+}
+TRY_INJECT:cloth = {
+    demand_add = {
+        foreign_peasants = 0.0005
+        foreign_soldiers = 0.001
+        foreign_laborers = 0.0005
+        foreign_burghers = 0.01
+        foreign_clergy = 0.02
+    }
+}
+TRY_INJECT:fine_cloth = {
+    demand_add = {
+        foreign_nobles = 0.2
+        foreign_burghers = 0.025
+        foreign_clergy = 0.025
+    }
+}
+TRY_INJECT:liquor = {
+    demand_multiply = {
+        foreign_nobles = 2
+    }
+}
+TRY_INJECT:beer = {
+    demand_multiply = {
+        foreign_nobles = 2
+    }
+}
+TRY_INJECT:paper = {
+    demand_add = {
+        foreign_nobles = 0.01
+        foreign_burghers = 0.02
+        foreign_clergy = 0.04
+    }
+}
+TRY_INJECT:books = {
+    demand_add = {
+        foreign_nobles = 0.01
+        foreign_burghers = 0.02
+        foreign_clergy = 0.04
+    }
+}
+TRY_INJECT:jewelry = {
+    demand_add = {
+        foreign_nobles = 0.1
+        foreign_burghers = 0.005
+    }
+}
+TRY_INJECT:tools = {
+    demand_add = {
+        foreign_laborers = 0.001
+    }
+}
+TRY_INJECT:lacquerware = {
+    demand_add = {
+        foreign_nobles =  0.05
+        foreign_burghers =  0.02
+    }
+}
+TRY_INJECT:pottery  = {
+    demand_multiply = {
+        foreign_laborers = 1.1
+        foreign_burghers = 1.2
+    }
+}
+TRY_INJECT:furniture  = {
+    demand_multiply = {
+        foreign_nobles = 2
+    }
+}
+
+####################################
+# in_game\common\goods\03_food.txt #
+####################################
+TRY_INJECT:wild_game = {
+    demand_multiply = {
+        foreign_nobles = 20
+        foreign_clergy = 5
+        foreign_burghers = 5
+    }
+}
+TRY_INJECT:fur = {
+    demand_add = {
+        foreign_nobles = 0.1
+        foreign_burghers = 0.005
+    }
+}
+TRY_INJECT:potato = {
+    demand_add = {
+        foreign_peasants = 0.001
+        foreign_laborers = 0.001
+    }
+}
+TRY_INJECT:livestock = {
+    demand_multiply = {
+        foreign_nobles = 30
+        foreign_clergy = 10
+        foreign_burghers = 10
+
+    }
+}

@@ -67,6 +67,16 @@
  search_filter_pop_is_foreign_peasants_name: "Foreign Peasant"
  search_filter_pop_is_foreign_peasants_desc: "Shows pops that are foreign peasants"
 
+
+ # demands
+ modFTP_foreign_pop_demand: "Needs of the Population" 
+ foreign_nobles_demand: "Needs of the [ShowPopTypeName('foreign_nobles')]"
+ foreign_clergy_demand: "Needs of the [ShowPopTypeName('foreign_clergy')]"
+ foreign_burghers_demand: "Needs of the [ShowPopTypeName('foreign_burghers')]"
+ foreign_peasants_demand: "Needs of the [ShowPopTypeName('foreign_peasants')]" 
+ foreign_soldiers_demand: "Needs of the [ShowPopTypeName('foreign_soldiers')]"
+ foreign_laborers_demand: "Needs of the [ShowPopTypeName('foreign_laborers')]"
+
  
  # desired_pop
  MODIFIER_TYPE_NAME_local_foreign_nobles_desired_pop_scaled: "Possible $foreign_nobles$ $per_1000_pops$"
