@@ -1,0 +1,15 @@
+﻿TRY_INJECT:orthodox_church_holy_site = {
+    location_modifier = {
+        local_foreign_clergy_max_literacy = 10
+    }
+}
+TRY_INJECT:mayan_holy_site = {
+    location_modifier = {
+        local_foreign_clergy_max_literacy = 10
+    }
+}
+TRY_INJECT:islam_holy_site = {
+    location_modifier = {
+        local_foreign_clergy_max_literacy = 10
+    }
+}

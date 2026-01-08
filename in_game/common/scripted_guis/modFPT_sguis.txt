@@ -1,5 +1,4 @@
-﻿# This is required for the estate filter panel in the GUI.
-IsVanilaPopType = {
+﻿IsVanilaPopType = { # Used for GUI is_visible checks to avoid bulky OR-blocks.
     is_shown = {
         OR = {
             root = pop_type:nobles

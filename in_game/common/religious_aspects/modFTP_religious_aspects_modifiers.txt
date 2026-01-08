@@ -1,0 +1,6 @@
+﻿# \in_game\common\religious_aspects\common.txt
+TRY_INJECT:monasticism = {
+    modifier = {
+        global_foreign_clergy_max_literacy = 5
+    }
+}

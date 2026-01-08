@@ -1,0 +1,184 @@
+﻿# \in_game\common\building_types\capital_buildings.txt
+TRY_INJECT:chancery = {
+    capital_modifier = {
+        local_foreign_burghers_max_literacy = 2.5
+        local_foreign_nobles_max_literacy = 2.5
+    }
+}
+
+
+# \in_game\common\building_types\culture_buildings.txt
+TRY_INJECT:university = {
+    modifier = {
+        local_foreign_burghers_max_literacy = 10
+        local_foreign_nobles_max_literacy = 10
+    }
+}
+TRY_INJECT:confucian_academy = {
+    modifier = {
+        local_foreign_burghers_max_literacy = 10
+    }
+}
+TRY_INJECT:jesuit_college = {
+    modifier = {
+        local_foreign_nobles_max_literacy = 10
+    }
+}
+
+
+# \in_game\common\building_types\estate_buildings.txt
+TRY_INJECT:clerical_archives = {
+    modifier = {
+        local_foreign_clergy_max_literacy = 1
+    }
+}
+TRY_INJECT:local_foreign_schools = {
+    modifier = {
+        local_foreign_peasants_max_literacy = 1
+    }
+}
+
+
+# \in_game\common\building_types\event_only_buildings.txt
+TRY_INJECT:great_madrasa = {
+    modifier = {
+        local_foreign_clergy_max_literacy = 10
+    }
+}
+TRY_INJECT:tibetan_great_monastery = {
+    modifier = {
+        local_foreign_clergy_max_literacy = 10
+    }
+}
+TRY_INJECT:globe_theatre = {
+    capital_country_modifier = {
+        global_foreign_peasants_max_literacy = 10
+        global_foreign_soldiers_max_literacy = 10
+        global_foreign_laborers_max_literacy = 10
+    }
+}
+TRY_INJECT:chi_missionary_building = {
+    modifier = {
+        local_foreign_burghers_max_literacy = 10
+    }
+}
+TRY_INJECT:teatro_san_cassiano = {
+    capital_country_modifier = {
+        global_foreign_peasants_max_literacy = 10
+        global_foreign_soldiers_max_literacy = 10
+        global_foreign_laborers_max_literacy = 10
+    }
+}
+TRY_INJECT:debere_meshwae = {
+    modifier = {
+        local_foreign_clergy_max_literacy = 10
+    }
+}
+TRY_INJECT:segovia_artillery_academy = {
+    modifier = {
+        local_foreign_soldiers_max_literacy = 10
+    }
+}
+
+
+# \in_game\common\building_types\religion_buildings.txt
+TRY_INJECT:monastery = {
+    modifier = {
+        local_foreign_clergy_food_consumption = 0.1
+        local_foreign_clergy_max_literacy = 10
+    }
+}
+TRY_INJECT:fortress_church = {
+    modifier = {
+        local_foreign_clergy_food_consumption = 0.1
+        local_foreign_clergy_max_literacy = 10
+    }
+}
+TRY_INJECT:madrasa = {
+    modifier = {
+        local_foreign_clergy_max_literacy = 5
+        local_foreign_clergy_food_consumption = 0.1
+    }
+}
+TRY_INJECT:sufi_lodge = {
+    modifier = {
+        local_foreign_clergy_max_literacy = 10
+        local_foreign_clergy_food_consumption = 0.1
+    }
+}
+TRY_INJECT:orthodox_monastery = {
+    modifier = {
+        local_foreign_clergy_max_literacy = 10
+        local_foreign_clergy_food_consumption = 0.2
+    }
+}
+TRY_INJECT:miaphysite_monastery = {
+    modifier = {
+        local_foreign_clergy_max_literacy = 10
+        local_foreign_clergy_food_consumption = 0.2
+    }
+}
+
+
+# \in_game\common\building_types\town_buildings.txt
+TRY_INJECT:temple = {
+    modifier = {
+        local_foreign_clergy_max_literacy = 5
+        local_foreign_unrest = -0.025
+        local_foreign_max_control = 0.05
+    }
+}
+TRY_INJECT:cathedral = {
+    modifier = {
+        local_foreign_clergy_max_literacy = 20
+    }
+}
+
+
+# \in_game\common\building_types\unique_buildings.txt
+TRY_INJECT:calmecac = {
+    modifier = {
+        local_foreign_nobles_max_literacy = 20
+    }
+    capital_country_modifier = {
+        global_foreign_nobles_max_literacy = 10
+    }
+}
+TRY_INJECT:ibadat_khana = {
+    modifier = {
+        local_foreign_clergy_max_literacy = 10
+        local_foreign_monthly_literacy = 0.05
+        local_foreign_institution_growth_modifier = 0.33
+    }
+}
+TRY_INJECT:greek_latin_academy = {
+    capital_country_modifier = {
+        global_foreign_nobles_max_literacy = 5
+        global_foreign_peasants_max_literacy = 5
+        global_foreign_soldiers_max_literacy = 5
+        global_foreign_laborers_max_literacy = 5
+    }
+
+}
+TRY_INJECT:free_economic_society = {
+    modifier = {
+        local_foreign_monthly_literacy = 0.1
+        local_foreign_peasants_max_literacy = 3
+    }
+}
+TRY_INJECT:moscow_orphanage = {
+    modifier = {
+        local_foreign_peasants_max_literacy = 3
+        local_foreign_laborers_max_literacy = 3
+    }
+}
+TRY_INJECT:great_hill_complex = {
+    modifier = {
+        local_foreign_clergy_max_literacy = 10
+    }
+}
+TRY_INJECT:gurgaddi = {
+    modifier = {
+        local_foreign_clergy_max_literacy = 10
+    }
+}

@@ -1,0 +1,14 @@
+﻿# \in_game\common\religions\christian.txt
+TRY_INJECT:catholic = {
+    definition_modifier = {
+        global_foreign_clergy_max_literacy = 25
+    }
+}
+
+# \in_game\common\religions\israelite.txt
+TRY_INJECT:samaritanism = {
+    definition_modifier = {
+        global_foreign_clergy_max_literacy = 10
+    }
+}
+

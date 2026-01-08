@@ -1,0 +1,26 @@
+﻿# \in_game\common\estate_privileges\burghers_estate.txt
+TRY_INJECT:kannada_literature_aid = {
+    country_modifier = {
+        global_foreign_burghers_max_literacy = 5
+    }
+}
+
+# \in_game\common\estate_privileges\clergy_estate.txt
+TRY_INJECT:clergy_literacy_rights = {
+    country_modifier = {
+        global_foreign_clergy_max_literacy = 5
+    }
+}
+TRY_INJECT:austrian_monastery_reform_melk = {
+    country_modifier = {
+        global_foreign_clergy_max_literacy = 10
+    }
+}
+
+# \in_game\common\estate_privileges\nobles_estate.txt
+TRY_INJECT:appoint_ecclesiastical_offices = {
+    country_modifier = {
+        global_foreign_nobles_max_literacy = 5
+    }
+}
+

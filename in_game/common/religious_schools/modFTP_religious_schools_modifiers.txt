@@ -1,0 +1,6 @@
+﻿# \in_game\common\religious_schools\sunni.txt
+TRY_INJECT:hanafi_school = {
+    modifier = {
+        global_foreign_clergy_max_literacy = 10
+    }
+}

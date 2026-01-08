@@ -1,0 +1,59 @@
+﻿pop_is_foreign_nobles = {
+    scope = pop
+    group = 1
+    tag = pop
+    exclusive_group = yes
+    trigger = {
+        pop_type = pop_type:foreign_nobles
+    }
+}
+
+pop_is_foreign_clergy = {
+    scope = pop
+    group = 1
+    tag = pop
+    exclusive_group = yes
+    trigger = {
+        pop_type = pop_type:foreign_clergy
+    }
+}
+
+pop_is_foreign_burghers = {
+    scope = pop
+    group = 1
+    tag = pop
+    exclusive_group = yes
+    trigger = {
+        pop_type = pop_type:foreign_burghers
+    }
+}
+
+pop_is_foreign_laborers = {
+    scope = pop
+    group = 1
+    tag = pop
+    exclusive_group = yes
+    trigger = {
+        pop_type = pop_type:foreign_laborers
+    }
+}
+
+pop_is_foreign_soldiers = {
+    scope = pop
+    group = 1
+    tag = pop
+    exclusive_group = yes
+    trigger = {
+        pop_type = pop_type:foreign_soldiers
+    }
+}
+
+pop_is_foreign_peasants = {
+    scope = pop
+    group = 1
+    tag = pop
+    exclusive_group = yes
+    trigger = {
+        pop_type = pop_type:foreign_peasants
+    }
+}

@@ -1,0 +1,19 @@
+﻿# \in_game\common\government_reforms\common.txt
+TRY_INJECT:enlightened_aristocracy = {
+    country_modifier = {
+        global_foreign_nobles_max_literacy = 5
+    }
+}
+TRY_INJECT:nautical_education_act = {
+    country_modifier = {
+        global_foreign_soldiers_max_literacy = 10
+    }
+}
+
+# \in_game\common\government_reforms\monarchy.txt
+TRY_INJECT:of_noble_bearing = {
+    country_modifier = {
+        global_foreign_nobles_max_literacy = 10
+    }
+}
+

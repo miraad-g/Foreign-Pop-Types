@@ -1,6 +1,4 @@
 ﻿# This is a copy of the vanilla definitions, changed to a foreign type.
-# Without this, the log generates a lot of errors.
-
 local_foreign_nobles_desired_pop_scaled={
     percent=yes
     game_data={
