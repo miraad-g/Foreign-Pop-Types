@@ -9,6 +9,7 @@
 		"Gameplay",
 		"Government and Estates"
 	],
+	"picture": "thumbnail.png",
 	"relationships": [],
 	"game_custom_data": {}
 }
