@@ -1,6 +1,6 @@
 ﻿# Any foreign type is the same as vanilla, but with migration_factor = 0
 # The colors are made a little darker, otherwise errors will appear in the log.
-REPLACE_OR_CREATE:foreign_nobles = {
+foreign_nobles = {
     color = hsv360 { 224 59 60 }
 
     editor = 0.05
@@ -28,7 +28,7 @@ REPLACE_OR_CREATE:foreign_nobles = {
     }
 }
 
-REPLACE_OR_CREATE:foreign_clergy = {
+foreign_clergy = {
     color = hsv360 { 217 13 70 }
 
     editor = 0.05
@@ -55,7 +55,7 @@ REPLACE_OR_CREATE:foreign_clergy = {
     }
 }
 
-REPLACE_OR_CREATE:foreign_burghers = {
+foreign_burghers = {
     color = hsv360 { 40 87 59 }
 
     editor = 0.1
@@ -83,7 +83,7 @@ REPLACE_OR_CREATE:foreign_burghers = {
     }
 }
 
-REPLACE_OR_CREATE:foreign_laborers = {
+foreign_laborers = {
     color = hsv { 0.6 0.3 0.15 }
 
     editor = 1.0
@@ -111,7 +111,7 @@ REPLACE_OR_CREATE:foreign_laborers = {
 
 }
 
-REPLACE_OR_CREATE:foreign_soldiers = {
+foreign_soldiers = {
     color = hsv360 { 0 74 68 }
 
     editor = 1.0
@@ -138,7 +138,7 @@ REPLACE_OR_CREATE:foreign_soldiers = {
     }
 }
 
-REPLACE_OR_CREATE:foreign_peasants = {
+foreign_peasants = {
     color = hsv360 { 78 44 27 }
 
     promote_to = nobles
@@ -168,41 +168,10 @@ REPLACE_OR_CREATE:foreign_peasants = {
     }
 }
 
-TRY_REPLACE:peasants = { # Only promotion has been added.
-    color = pop_peasants
-
-    promote_to = nobles
+TRY_INJECT:peasants = {
     promote_to = foreign_nobles
-
-    promote_to = clergy
     promote_to = foreign_clergy
-
-    promote_to = burghers
     promote_to = foreign_burghers
-
-    promote_to = laborers
     promote_to = foreign_laborers
-
-    promote_to = soldiers
     promote_to = foreign_soldiers
-
-    pop_food_consumption = 1.0
-
-    promotion_factor = 0.5
-
-    grow = yes
-
-    assimilation_conversion_factor = 1.0
-
-    migration_factor = 0.1
-
-    city_graphics = 0.01
-    dhimmi_estate = { is_dhimmi = yes }
-    tribes_estate = { is_gaelic_clans = yes }
-    peasants_estate = {}
-
-    literacy_impact = {
-        local_pop_promotion_speed_modifier = 2.0
-        local_levy_recruitment_speed_modifier = 0.2
-    }
 }
