@@ -1,7 +1,7 @@
 ﻿# Foreign Pop Types
 A mod for Europa Universalis V that adds new worker types for all foreign buildings in the game.
 
-[![Steam Workshop](https://img.shields.io/badge/Steam%20Workshop-Subscribe-blue)](https://steamcommunity.com/sharedfiles/filedetails/?id=3640891677)
+[![Steam Workshop](https://img.shields.io/badge/Steam%20Workshop-Subscribe-blue)](https://steamcommunity.com/sharedfiles/filedetails/?id=3642467898)
 
 ## Overview
 Currently (as of version 1.0.10), the game has a bug that prevents the construction of foreign buildings in locations that already have pops of the same religion and culture.
@@ -40,7 +40,7 @@ For other languages available in the game, the mod will display in English witho
 * Foreign pop types spawn with zero literacy. This is a known bug affecting all pop types. We are waiting for Paradox to fix it.
 
 ## Installation
-Subscribe to the mod on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3640891677).
+Subscribe to the mod on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3642467898).
 
 ### Manual Installation
 * Download this repository.
